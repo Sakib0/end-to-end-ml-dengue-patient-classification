@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dengue_classification"
+version = "0.0.1"
+description = "End-to-end dengue patient classification project"
+readme = "README.md"
+authors = [ { name = "Sakib", email = "sakibulhassan07@gmail.com" } ]
+requires-python = ">=3.8"
+dependencies = []
