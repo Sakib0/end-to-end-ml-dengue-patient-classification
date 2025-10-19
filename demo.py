@@ -1,4 +1,9 @@
-from dengue_classification.logger import logger
+from dengue_classification.exception import CustomException
+import sys
 
-logger.info("This is a demo log message from demo.py")
-print("Demo script executed. Check logs for the log message.")
+
+
+try:
+    r=3/0
+except Exception as e:
+    raise CustomException(e, sys)
